@@ -1,0 +1,237 @@
+.fullpage {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1500px;
+  background-color: #fff;
+}
+
+.fullpage #categories-location {
+  text-decoration: none;
+  color: #595959;
+  font-size: 12px;
+  margin-top: 8px;
+  padding: 0 16px;
+  display: block;
+}
+
+.fullpage #categories-location span:hover {
+  text-decoration: underline;
+}
+
+.mainproduct {
+  line-height: 20px;
+  color: #0f1111;
+  display: flex;
+  margin-top: 20px;
+  padding: 0 16px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+#leftcol {
+  width: 45%;
+  display: flex;
+  position: relative;
+}
+
+#leftcol figure {
+  width: 42px;
+  height: 42px;
+  border: 1px rgb(161, 161, 161) solid;
+  padding: 1px 6px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+#leftcol figure:hover {
+  box-shadow: 0px 0px 4px 2px #e77600;
+}
+#leftcol figure:hover > div {
+  visibility: visible;
+}
+#leftcol figure div {
+  position: absolute;
+  height: 612px;
+  top: 0;
+  left: 44px;
+  visibility: hidden;
+}
+#picture1 div img {
+  width: 100%;
+  height: auto;
+}
+#picture2 div img {
+  width: auto;
+  height: 100%;
+}
+#picture3 div img {
+  width: auto;
+  height: 100%;
+}
+#picture4 div img {
+  width: 100%;
+  height: auto;
+}
+#picture5 div img {
+  width: auto;
+  height: 100%;
+}
+#picture1 {
+  background: url(/img/first.jpg);
+}
+#picture2 {
+  background: url(/img/second.jpg);
+}
+#picture3 {
+  background: url(/img/third.jpg);
+}
+#picture4 {
+  background: url(/img/fourth.jpg);
+}
+#picture5 {
+  background: url(/img/last.jpg);
+}
+
+#mainimg {
+  margin-left: 2px;
+  background: url(/img/another\ one.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 612px;
+  width: 100%;
+}
+/* FILL */
+#coll-fill {
+  width: 35%;
+  margin-left: 20px;
+}
+#coll-fill h1 {
+  margin-right: 40px;
+  font-weight: 20;
+  font-size: 24px;
+  line-height: 32px;
+}
+#visitstore {
+  display: block;
+  text-decoration: none;
+  color: #007185;
+}
+#icon-star {
+  display: inline-block;
+  height: 18px;
+  width: 80px;
+  background: url(/img/3-fm1Jbg4IHlyhq.png);
+  background-size: 512px 256px;
+  background-repeat: no-repeat;
+  background-position: -166px -36px;
+}
+#collratings {
+  text-decoration: none;
+  padding-left: 17px;
+  color: #007185;
+  padding-bottom: 10px;
+}
+#line {
+  height: 10px;
+  border-bottom: 1px solid #d4d4d4;
+  margin-bottom: 20px;
+}
+#wasprice {
+  margin-left: 30px;
+}
+#wasprice span {
+  text-decoration: line-through;
+}
+#price {
+  margin-left: 25px;
+}
+#price span {
+  font-size: 18px;
+  color: #b12704;
+}
+#saveprice span {
+  color: #b12704;
+}
+#avaibleat {
+  margin-top: 10px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+#coloritem span {
+  font-weight: 600;
+}
+#choose-color {
+  margin-top: 10px;
+  display: flex;
+}
+#choose-color figure {
+  width: 36px;
+  margin-right: 6px;
+  height: 36px;
+  border: 1px rgb(172, 172, 172) solid;
+}
+#choose-color figure:hover {
+  border: 1px #e77600 solid;
+}
+#small1 {
+  background: url(/img/small1.jpg);
+}
+#small2 {
+  background: url(/img/small2_.jpg);
+}
+#small3 {
+  background: url(/img/small3_.jpg);
+}
+#small4 {
+  background: url(/img/small4_.jpg);
+}
+#small5 {
+  background: url(/img/small5_.jpg);
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  display: inline-block;
+  height: 35px;
+  width: 37px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  background-color: #e7eaf0;
+  text-align: center;
+  padding: 7px 0;
+  color: #0f1111;
+}
+#container > div {
+  width: 140px;
+  margin: 10px 10px;
+}
+#container > div figure {
+  width: 160px;
+  height: 160px;
+}
+#container > div > a {
+  text-decoration: none;
+  color:#007185; 
+}
+#one {
+  background: url(/img/11.jpg);
+}
+#two {
+  background: url(/img/22.jpg) no-repeat;
+  background-position: 100% 100%;
+}
+#three {
+  background: url(/img/33.jpg);
+}
+#four {
+  background: url(/img/44.jpg);
+}
+#five {
+  background: url(/img/55.jpg);
+}
+#six {
+  background: url(/img/66.jpg);
+}
+#seven {
+  background: url(/img/77.jpg);
+}
